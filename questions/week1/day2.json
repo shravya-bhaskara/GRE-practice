@@ -1,0 +1,16 @@
+{
+  "verbal": [
+    {
+      "question": "The committee remained ________ despite mounting evidence that reforms were necessary.",
+      "options": ["resolute", "apathetic", "lucid", "vigilant"],
+      "answer": "apathetic"
+    }
+  ],
+  "quant": [
+    {
+      "question": "What is 35% of 200?",
+      "options": ["60", "70", "80", "90"],
+      "answer": "70"
+    }
+  ]
+}

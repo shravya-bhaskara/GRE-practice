@@ -1,1 +1,57 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GRE Practice Platform</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>GRE Practice Platform</h1>
+<p class="subtitle">Interactive GRE prep with timed sections</p>
+
+<section class="card" id="intro">
+<h2>Day 1 Diagnostic</h2>
+<ul>
+<li>Verbal: 15 minutes</li>
+<li>Quant: 20 minutes</li>
+<li>No external help</li>
+</ul>
+<button onclick="startSection('verbal')">Start Verbal</button>
+</section>
+
+<section id="verbal" class="hidden">
+<div class="header">
+<h2>Verbal Section</h2>
+<div id="verbal-timer" class="timer">15:00</div>
+</div>
+<div class="card">
+<p><strong>Q1.</strong> Although the scientist’s early theories were initially dismissed as ________, later discoveries revealed them to be remarkably prescient.</p>
+<label><input type="radio" name="v1"> orthodox</label>
+<label><input type="radio" name="v1"> prophetic</label>
+<label><input type="radio" name="v1"> fanciful</label>
+</div>
+<button onclick="startSection('quant')">Start Quant</button>
+</section>
+
+<section id="quant" class="hidden">
+<div class="header">
+<h2>Quant Section</h2>
+<div id="quant-timer" class="timer">20:00</div>
+</div>
+<div class="card">
+<p><strong>Q1.</strong> If 2x + 5 = 17, what is x?</p>
+<label><input type="radio" name="q1"> 4</label>
+<label><input type="radio" name="q1"> 5</label>
+<label><input type="radio" name="q1"> 6</label>
+</div>
+<div class="card success">
+<h3>Finish</h3>
+<p>Send your answers in ChatGPT for scoring and analytics.</p>
+</div>
+</section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

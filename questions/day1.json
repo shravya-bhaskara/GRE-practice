@@ -1,0 +1,26 @@
+{
+  "verbal": [
+    {
+      "question": "Although the scientist’s early theories were initially dismissed as ________, later discoveries revealed them to be remarkably prescient.",
+      "options": ["orthodox", "prophetic", "fanciful", "rigorous"],
+      "answer": "fanciful"
+    },
+    {
+      "question": "The professor’s explanation was so ________ that even students unfamiliar with the topic could follow the argument easily.",
+      "options": ["lucid", "arcane", "convoluted", "intelligible"],
+      "answer": "lucid"
+    }
+  ],
+  "quant": [
+    {
+      "question": "If 2x + 5 = 17, what is x?",
+      "options": ["4", "5", "6", "7"],
+      "answer": "6"
+    },
+    {
+      "question": "A rectangle has length 12 and width 5. What is its area?",
+      "options": ["48", "60", "72", "84"],
+      "answer": "60"
+    }
+  ]
+}

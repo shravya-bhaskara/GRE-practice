@@ -9,16 +9,27 @@
 <body>
 <div class="container">
 <h1>GRE Practice Platform</h1>
-<p class="subtitle">Interactive GRE prep with timed sections</p>
+<p class="subtitle">30-Day Personalized GRE Training System</p>
+
+<section class="card hero">
+<h2>Training Dashboard</h2>
+<p>Daily GRE practice tests, analytics, vocabulary reinforcement, and adaptive training.</p>
+<div class="stats-grid">
+<div class="stat-box"><h3>30</h3><p>Training Days</p></div>
+<div class="stat-box"><h3>2</h3><p>Daily Sections</p></div>
+<div class="stat-box"><h3>7:30 PM</h3><p>Reminder Active</p></div>
+</div>
+</section>
 
 <section class="card" id="intro">
 <h2>Day 1 Diagnostic</h2>
 <ul>
 <li>Verbal: 15 minutes</li>
 <li>Quant: 20 minutes</li>
-<li>No external help</li>
+<li>Adaptive scoring planned</li>
+<li>Progress tracking enabled</li>
 </ul>
-<button onclick="startSection('verbal')">Start Verbal</button>
+<button onclick="startSection('verbal')">Start Today's Practice</button>
 </section>
 
 <section id="verbal" class="hidden">
@@ -32,7 +43,7 @@
 <label><input type="radio" name="v1"> prophetic</label>
 <label><input type="radio" name="v1"> fanciful</label>
 </div>
-<button onclick="startSection('quant')">Start Quant</button>
+<button onclick="startSection('quant')">Continue to Quant</button>
 </section>
 
 <section id="quant" class="hidden">
@@ -47,8 +58,8 @@
 <label><input type="radio" name="q1"> 6</label>
 </div>
 <div class="card success">
-<h3>Finish</h3>
-<p>Send your answers in ChatGPT for scoring and analytics.</p>
+<h3>Submission</h3>
+<p>Submit your answers in ChatGPT for scoring and personalized analytics.</p>
 </div>
 </section>
 </div>
